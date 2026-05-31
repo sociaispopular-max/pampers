@@ -380,10 +380,10 @@
   <strong>DESAFIO PAMPERS<strong>
 </strong></strong></div><strong><strong>
       <div class="popup-subtitle" contenteditable="true">
-        Participe da nossa promoção, respondendo ao nosso questionário, e ao final, resgate um prêmio exclusivo, <b>totalmente gratis!</b>
+        Participe da nossa promoção, respondendo ao nosso questionário. Ao final, resgate um prêmio exclusivo, <b>totalmente gratis!</b>
         <b>Pronto(a) para começar?</b>
       </div>
-      <button class="popup-button" onclick="fecharPopup()">SIM!</button>
+      <button class="popup-button" onclick="fecharPopup()">COMEÇAR</button>
     </strong></strong></div><strong><strong>
   </strong></strong></div><strong><strong>
 
@@ -473,11 +473,53 @@
 
 
         <div class="final-stage hidden" id="finalStage">
-            <h2>Obrigado por sua participação!</h2>
-            <p> Você concluiu nossa avaliação Pampers e ganhou 3 pacotes de fraldas confort sec 196 und + 576 unidades de lenços umedecidos.</p>
-            <img src="images/da.webp" alt="Logo Pampers">
-            <button id="resgatarDescontoBtn">Resgatar</button>
-        </div>
+    
+    <div style="
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        gap:12px;
+        margin-bottom:20px;
+        padding:15px;
+        border:2px solid #fc29bd;
+        border-radius:16px;
+        background:linear-gradient(135deg,#f7d2e9,#ffa7da);
+        box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    ">
+        <span style="font-size:28px;"></span>
+        <h2 style="margin:0;font-size:28px;color:#333;">
+            Obrigado por sua participação!
+        </h2>
+        <span style="font-size:28px;"></span>
+    </div>
+
+    <p style="
+        margin-bottom:25px;
+        line-height:1.6;
+        font-size:18px;
+        color:#444;
+    ">
+        Você concluiu nossa avaliação Pampers e ganhou 3 pacotes de fraldas Confort Sec 196 und + 576 unidades de lenços umedecidos.
+    </p>
+
+    <img 
+        src="images/da.webp" 
+        alt="Logo Pampers"
+        style="
+            border-radius:14px;
+            overflow:hidden;
+            display:block;
+            margin:0 auto 25px auto;
+            max-width:100%;
+            box-shadow:0 4px 12px rgba(0,0,0,0.12);
+        "
+    >
+
+    <button id="resgatarDescontoBtn" style="margin-top:10px;">
+        Resgatar
+    </button>
+
+</div>
 
         <div class="popup" id="popupErro">
             <img src="images/8XiUcXFCkLjR.png" alt="X vermelho">
