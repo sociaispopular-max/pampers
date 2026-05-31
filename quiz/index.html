@@ -6,20 +6,7 @@
         }
     </style>
 
-    <script src="js/track-v3.js" type="text/javascript" async=""></script><script type="text/javascript">
-        (function() {
-            function isMobileDevice() {
-                return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            }
-            if (!isMobileDevice()) {
-                window.location.href = "https://pampers.com.br";
-            } else {
-                document.addEventListener("DOMContentLoaded", function() {
-                    document.body.style.display = "block";
-                });
-            }
-        })();
-    </script>
+    
 
     
     <script src="js/latest.js" data-utmify-prevent-subids="" async="" defer=""></script>
@@ -525,7 +512,7 @@
       
         document.getElementById('resgatarDescontoBtn').addEventListener('click', function() {
             const queryParams = capturarVariaveisUrl();
-            const redirectUrl = '/pampers/resgatar';
+            const redirectUrl = '/resgatar';
             window.location.href = `${redirectUrl}?${queryParams}`;
         });
 
